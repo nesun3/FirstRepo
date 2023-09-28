@@ -21,6 +21,6 @@ function processData(message) {
     value = properties.get("oldProperty");
     message.setProperty("oldProperty", value + " modified");
     message.setProperty("newProperty", "newProperty");
-    console.log("Hello World! to JS");
+    console.log("uno dos tres");
     return message;
 }
